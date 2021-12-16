@@ -210,7 +210,7 @@ function init() {
                 .load('mod1.obj', function (group) {
                     RhinoMesh = group.children[0];
                     RhinoMesh.material.side = THREE.DoubleSide;
-                    RhinoMesh.scale.set(0.0035,0.0035, 0.0035);
+                    RhinoMesh.scale.set(0.003,0.003, 0.003);
                     RhinoMesh.castShadow = true;
                     RhinoMesh.receiveShadow = true;
 
